@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+            {
+                "name": "Sydney, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+            },
+            {
+                "name": "Melbourne, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A bustling cultural capital famous for its arts, music, and culinary scenes."
+            },
+            {
+                "name": "Brisbane, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A sunny city known for its beautiful river, parks, and nearby beaches."
+            },
+            {
+                "name": "Perth, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A charming city known for its vibrant culture and natural beauty, located in Australia."
+            },
+            {
+                "name": "Adelaide, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A city famous for its historical landmarks and modern attractions in Australia."
+            },
+            {
+                "name": "Canberra, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A coastal city offering stunning views and a lively atmosphere in Australia."
+            },
+            {
+                "name": "Cairns, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in Australia."
+            },
+            {
+                "name": "Gold Coast, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in Australia."
+            },
+            {
+                "name": "Hobart, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in Australia."
+            },
+            {
+                "name": "Darwin, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in Australia."
+            },
+            {
+                "name": "San Diego, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in Australia."
+            },
+            {
+                "name": "Orlando, Australia",
+                "imageUrl": "images/australia.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in Australia."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "United States",
+        "cities": [
+            {
+                "name": "New York City, USA",
+                "imageUrl": "images/usa.jpg",
+                "description": "The largest city in the country, known for its skyline, Broadway, and diverse cultural attractions."
+            },
+            {
+                "name": "Los Angeles, USA",
+                "imageUrl": "images/usa.jpg",
+                "description": "A sprawling city known for its film and television industry, particularly Hollywood."
+            },
+            {
+                "name": "Chicago, USA",
+                "imageUrl": "images/usa.jpg",
+                "description": "Famous for its architecture, museums, and vibrant arts scene."
+            },
+            {
+                "name": "Perth, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A charming city known for its vibrant culture and natural beauty, located in United States."
+            },
+            {
+                "name": "Adelaide, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A city famous for its historical landmarks and modern attractions in United States."
+            },
+            {
+                "name": "Canberra, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A coastal city offering stunning views and a lively atmosphere in United States."
+            },
+            {
+                "name": "Cairns, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in United States."
+            },
+            {
+                "name": "Gold Coast, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in United States."
+            },
+            {
+                "name": "Hobart, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in United States."
+            },
+            {
+                "name": "Darwin, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in United States."
+            },
+            {
+                "name": "San Diego, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in United States."
+            },
+            {
+                "name": "Orlando, United States",
+                "imageUrl": "images/usa.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in United States."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "France",
+        "cities": [
+            {
+                "name": "Paris, France",
+                "imageUrl": "images/france.jpg",
+                "description": "The capital city known for its art, fashion, and the iconic Eiffel Tower."
+            },
+            {
+                "name": "Nice, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city on the French Riviera, known for its Mediterranean beaches and vibrant nightlife."
+            },
+            {
+                "name": "Lyon, France",
+                "imageUrl": "images/france.jpg",
+                "description": "Known for its historical architecture, cuisine, and the annual Festival of Lights."
+            },
+            {
+                "name": "Perth, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A charming city known for its vibrant culture and natural beauty, located in France."
+            },
+            {
+                "name": "Adelaide, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A city famous for its historical landmarks and modern attractions in France."
+            },
+            {
+                "name": "Canberra, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A coastal city offering stunning views and a lively atmosphere in France."
+            },
+            {
+                "name": "Cairns, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in France."
+            },
+            {
+                "name": "Gold Coast, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in France."
+            },
+            {
+                "name": "Hobart, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in France."
+            },
+            {
+                "name": "Darwin, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in France."
+            },
+            {
+                "name": "San Diego, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in France."
+            },
+            {
+                "name": "Orlando, France",
+                "imageUrl": "images/france.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in France."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Japan",
+        "cities": [
+            {
+                "name": "Tokyo, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A bustling metropolis blending modern skyscrapers with traditional temples and shrines."
+            },
+            {
+                "name": "Kyoto, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "Famous for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses."
+            },
+            {
+                "name": "Osaka, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "Known for modern architecture, nightlife, and hearty street food."
+            },
+            {
+                "name": "Perth, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A charming city known for its vibrant culture and natural beauty, located in Japan."
+            },
+            {
+                "name": "Adelaide, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A city famous for its historical landmarks and modern attractions in Japan."
+            },
+            {
+                "name": "Canberra, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A coastal city offering stunning views and a lively atmosphere in Japan."
+            },
+            {
+                "name": "Cairns, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in Japan."
+            },
+            {
+                "name": "Gold Coast, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in Japan."
+            },
+            {
+                "name": "Hobart, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in Japan."
+            },
+            {
+                "name": "Darwin, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A beautiful city known for its beachs and vibrant atmosphere, located in Japan."
+            },
+            {
+                "name": "San Diego, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A beautiful city known for its countrys and vibrant atmosphere, located in Japan."
+            },
+            {
+                "name": "Orlando, Japan",
+                "imageUrl": "images/japan.jpg",
+                "description": "A beautiful city known for its temples and vibrant atmosphere, located in Japan."
+            }
+        ]
+    }
+]
