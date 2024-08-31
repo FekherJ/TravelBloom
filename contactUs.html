@@ -7,7 +7,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Contact Us - TravelBloom</title>
+    <script src="travel_recommendation.js"></script> 
+    <title>TravelBloom</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
@@ -17,48 +18,36 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="aboutUs.html">About Us</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="contactUs.html">Contact Us</a>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 rounded-pill shadow-sm" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                <button class="btn btn-outline-primary my-2 my-sm-0 rounded-pill shadow-sm" type="button" id="search-button">Search</button>
+                <button class="btn btn-outline-primary my-2 my-sm-0 rounded-pill shadow-sm" type="button" id="clear-button">Clear</button>
+            </form>
         </div>
     </nav>
 
     <header class="jumbotron jumbotron-fluid text-center text-white" style="background-image: url('images/home.jpg'); background-size: cover; background-position: center; position: relative;">
         <div class="overlay"></div>
         <div class="container">
-            <h1 class="display-4 font-weight-bold">Contact Us</h1>
-            <p class="lead">We'd love to hear from you! Get in touch with us today.</p>
+            <h1 class="display-4 font-weight-bold">Discover Your Next Adventure</h1>
+            <p class="lead">Explore breathtaking destinations around the world with TravelBloom. Your journey starts here.</p>
+            <a href="#" class="btn btn-lg btn-primary rounded-pill shadow-sm">Start Exploring</a>
         </div>
     </header>
 
     <div class="container my-5">
-        <section class="contact-us">
-            <div class="contact-info mb-5">
-                <h2 class="text-center">Get in Touch</h2>
-                <p class="text-center">Feel free to reach out to us with any inquiries or feedback.</p>
-            </div>
-            <div class="contact-form">
-                <form action="#" method="POST">
-                    <div class="form-group">
-                        <input type="text" class="form-control rounded-pill shadow-sm" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control rounded-pill shadow-sm" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control rounded-pill shadow-sm" name="message" placeholder="Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block rounded-pill shadow-sm">Submit</button>
-                </form>
-            </div>
-        </section>
+        <h2 class="text-center mb-5">Top Destinations</h2>
+        <div id="results" class="row justify-content-center"></div>
     </div>
 
     <footer class="text-center py-4 bg-light text-muted border-top">
@@ -75,8 +64,7 @@
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="httpscdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="search_and_clear.js"></script>
 </body>
 </html>
