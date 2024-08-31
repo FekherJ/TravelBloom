@@ -1,160 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa; /* Light gray background for a modern look */
-    color: #333;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-header.jumbotron {
-    margin-bottom: 0;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    color: #ffffff;
+/* Header Styles */
+.jumbotron {
     position: relative;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
-    background-size: cover;
-    background-position: center;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 100px 0;
 }
 
-header.jumbotron .overlay {
+.jumbotron .overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Subtle overlay for text readability */
-    z-index: 1;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-header .container {
+.jumbotron h1,
+.jumbotron p {
     position: relative;
     z-index: 2;
 }
 
-header h1, header p, header a {
-    color: #ffffff;
-}
-
-.form-inline .btn {
-    margin-left: 10px; /* Adding more space between buttons */
-}
-
-#results {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-}
-
+/* Search Results */
 .result-item {
-    border: 1px solid #eee;
-    padding: 15px;
-    flex: 1 1 calc(30% - 40px);
-    background-color: #ffffff;
-    color: #333;
-    border-radius: 12px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
-}
-
-.result-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .result-image {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    transition: transform 0.3s ease;
-}
-
-.result-item:hover .result-image {
-    transform: scale(1.05);
-}
-
-h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-p {
-    font-size: 1rem;
-    margin-bottom: 10px;
-    color: #555;
+    border-radius: 5px;
 }
 
 .visit-button {
-    background-color: #17a2b8;
+    margin-top: 10px;
+    background-color: #007bff;
     color: white;
-    padding: 10px;
     border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    width: 100%;
-    border-radius: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
 }
 
 .visit-button:hover {
-    background-color: #138496;
-    transform: translateY(-2px);
+    background-color: #0056b3;
 }
 
+/* Footer Styles */
 footer {
-    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
 }
 
-.contact-form .form-group {
-    margin-bottom: 1rem;
+footer a {
+    color: #333;
 }
 
-.contact-form .form-control {
-    border-radius: 25px;
-    padding: 10px 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-}
-
-.contact-form .form-control:focus {
-    border-color: #17a2b8;
-    box-shadow: 0px 2px 8px rgba(23, 162, 184, 0.25);
-}
-
-.contact-form button[type="submit"] {
-    background-color: #17a2b8;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.contact-form button[type="submit"]:hover {
-    background-color: #138496;
-    transform: translateY(-2px);
+footer a:hover {
+    color: #007bff;
 }
