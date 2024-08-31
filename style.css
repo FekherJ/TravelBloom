@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.jumbotron {
+    position: relative;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 100px 0;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+    position: relative;
+    z-index: 2;
+}
+
+/* Search Results */
+.result-item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.result-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.visit-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.visit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+footer a {
+    color: #333;
+}
+
+footer a:hover {
+    color: #007bff;
+}
