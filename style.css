@@ -58,14 +58,19 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
-    width: 200px; /* Adjusted width for a more compact layout */
+    width: 300px; /* Adjusted width for a more compact layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.result-item:hover {
+    transform: scale(1.05);
 }
 
 .result-image {
     width: 100%; /* Maintain width relative to the result item */
-    height: auto;
+    height: 180px; /* Fixed height for consistency */
     border-radius: 5px;
-    max-height: 150px; /* Limit height to make the images smaller */
     object-fit: cover; /* Ensures images fit within the given dimensions */
 }
 
