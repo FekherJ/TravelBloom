@@ -27,6 +27,30 @@ body {
     z-index: 2;
 }
 
+/* Navbar Styles */
+.navbar {
+    padding: 20px 15px; /* Increase padding for a larger navigation bar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Search Form Styles */
+.form-inline {
+    margin-left: auto; /* Ensure search form is aligned correctly */
+    max-width: 500px; /* Restrict width to keep items closer together */
+}
+
+.form-control {
+    width: 60%; /* Adjust width of the search input */
+}
+
+.btn {
+    margin-left: 5px; /* Slight margin to separate buttons from the input */
+}
+
 /* Search Results */
 .result-item {
     margin: 10px;
