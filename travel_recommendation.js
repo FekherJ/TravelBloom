@@ -52,14 +52,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (results.length > 0) {
                 resultsDiv.style.display = 'flex';
+                resultsDiv.classList.add('row');
                 const limitedResults = results.slice(0, n); // Get the first n results
                 limitedResults.forEach(item => {
                     resultsDiv.innerHTML += `
-                        <div class="result-item">
-                            <img src="${item.imageUrl}" alt="${item.name}" class="result-image"/>
-                            <h3>${item.name}</h3>
-                            <p>${item.description}</p>
-                            <button class="visit-button">Visit</button>
+                        <div class="col-md-4">
+                            <div class="result-item card shadow-sm">
+                                <img src="${item.imageUrl}" alt="${item.name}" class="result-image card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.name}</h5>
+                                    <p class="card-text">${item.description}</p>
+                                    <a href="#" class="btn btn-primary visit-button">Visit</a>
+                                </div>
+                            </div>
                         </div>
                     `;
                 });
